@@ -30,7 +30,6 @@ function checkThen(arr) {
         });
     } else if (arr.length > 2 && arr.length <= 10) {
         appendMarkupList(arr);
-        refs.container.innerHTML = '';
         refs.list.classList.add('is-open');
     } else if (arr.length === 1) {
         refs.list.innerHTML = '';
